@@ -22,15 +22,9 @@ namespace T5_actividad_1
     public MainWindow()
         {
             InitializeComponent();
-            //plato.getsamples(system.io.path.co)
             ListadoPlatos.DataContext = listaPlatos;
             tipo_ComboBox.ItemsSource = tipoComida;
-            //prueba1.DataContext = ListadoPlatos.DataContext;
         }
 
-        /*private void Comida_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            formulario_StackPanel.DataContext = (sender as ListBox).SelectedItem;
-        }*/
     }
 }
